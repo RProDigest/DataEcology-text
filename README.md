@@ -32,7 +32,9 @@ A fully annotated R script for generating:
 
 ---
 
-## 🗺️ Features in the Map
+## 🗺️ Visual Overview
+
+![UK Tech Hub Ecosystem: Activity and Specializations](UK_Tech_Hubs_Map.png)
 
 - 📍 Cities plotted by **tech activity score** (scale 1–10)  
 - 🏷️ Specializations labeled (e.g., FinTech, Life Sciences, AI)  
