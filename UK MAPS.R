@@ -27,7 +27,8 @@ pacman::p_load(tidyverse,
                grid,
                ggrepel,
                leafpop,
-               mapview
+               mapview,
+               htmlwidgets
 )
 
 # 2.0 LOAD UK MAP------------------------------
@@ -276,4 +277,9 @@ tbl |>
   reactable(
     theme = fivethirtyeight(),
     resizable = TRUE
-  )
+  )-> tbl_widget
+# Save the table as an HTML file
+
+saveWidget(tbl_widget, "UK_Tech_Hubs_Table.html", selfcontained = TRUE)
+
+reactable::save_reactable(tbl, "UK_Tech_Hubs_Table.html")
