@@ -277,8 +277,3 @@ tbl |>
     theme = fivethirtyeight(),
     resizable = TRUE
   )
-# Save the reactable table to an svg
-
-# Open the saved HTML file in the default web browser
-
-reactable::save_reactable(tbl, "ManLon_Table.html")
