@@ -56,7 +56,7 @@ cd DataEcology-text
 - Make sure `ManLon.xlsx` is in your working directory.
 - Run the script to generate:
   - `UK_Tech_Hubs_Map.png`
-  - `ManLon_Table.html`
+  - `UK_Tech_Hubs_Table.html`
 
 ### 3. Explore the Presentation
 - Open `Data Ecology in UK Tech Hubs.pdf` for a strategic overview.
